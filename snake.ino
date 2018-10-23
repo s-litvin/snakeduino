@@ -112,6 +112,8 @@ static void init_snake()
      snakey[i] = 5;     
   }
 
+  direction = RIGHT;
+
   for(char i=0; i <= 3; i++) {
     snake();
     display.display();
