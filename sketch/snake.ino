@@ -183,9 +183,9 @@ static void movesnake ()
 
     if (xdirection != 0) {
       if (xdirection > 0 && direction != LEFT) {
-          direction = RIGHT;
-      } else if (xdirection < 0 && direction != RIGHT) {
           direction = LEFT;
+      } else if (xdirection < 0 && direction != RIGHT) {
+          direction = RIGHT;
       }
     } else if (ydirection != 0) {
       if (ydirection > 0 && direction != DOWN) {
