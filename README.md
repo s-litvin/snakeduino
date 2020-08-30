@@ -9,6 +9,6 @@ For using Adafruit graphic libraries for 5110 display, you need to include it be
 #include <Adafruit_PCD8544.h>
 ```
 
-## Connecting scheme
+### Connecting scheme
 
 ![alt text](https://raw.githubusercontent.com/s-litvin/snakeduino/master/Snake_fritzing.jpg)
